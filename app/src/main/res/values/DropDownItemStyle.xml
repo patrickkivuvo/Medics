@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DropDownItemStyle">
+        <!-- Customize your item's appearance here -->
+        <item name="android:gravity">end</item>
+    </style>
+</resources>

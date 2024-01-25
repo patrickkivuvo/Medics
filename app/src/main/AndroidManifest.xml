@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MyDoctor"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyDoctor"
+        tools:targetApi="31">
+        <activity
+            android:name=".welcome.ResetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".welcome.Verify"
+            android:exported="false" />
+        <activity
+            android:name=".welcome.ForgortPassword"
+            android:exported="false" />
+        <activity
+            android:name=".welcome.ForrgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.Taggle"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.NurseSessions"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.OnDemandMedic"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.PhysioSession"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.MySessions"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.Home"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.DetailsPhysical"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.Biodata"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.Plan"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.Physio"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.Nurse"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.ClinicalOfficer"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.Blog"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.CancelAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.Details"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.DrSpecialist"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.PaymentType"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.ScheduledAppointments"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.MyAppointments"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.FullDetails"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.Kardex"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.Inbox"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.MedicalOfficer"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.Notifications"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.Nutritionist"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.OnlineAppointments"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.PhysicalAppointments"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.Psychologist"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.RescheduleAppointment"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.ReviewSymptoms"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.SymptomChecker"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.SymptomCheckerRequest"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.ViewDescription"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.ViewDetails"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.ViewFullDescription"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.ViewProfile"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.WaitingRoom"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.ResumeSession"
+            android:exported="false" />
+        <activity
+            android:name=".welcome.SliderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".welcome.SignIn"
+            android:exported="false" />
+        <activity
+            android:name=".welcome.IntroSliderAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".welcome.IntroSlide"
+            android:exported="false" />
+        <activity
+            android:name=".welcome.Congrats"
+            android:exported="false" />
+        <activity
+            android:name=".welcome.Welcome"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.Kendi"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".welcome.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

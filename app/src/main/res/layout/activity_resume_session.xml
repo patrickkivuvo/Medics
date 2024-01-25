@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".doctor.ResumeSession">
+
+
+    <EditText
+        android:id="@+id/et_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_button"
+        android:backgroundTint="@android:color/white"
+        android:textColorHint="@color/black"
+        android:hint="Type a message..."
+        android:inputType="textShortMessage"
+        android:padding="10dp"
+        android:singleLine="true" />
+
+    <ImageView
+        android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#42A5F5"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/baseline_send_24"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"/>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_messages"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/et_message"
+        android:layout_below="@+id/dark_divider"
+        tools:itemCount="20"
+        tools:listitem="@layout/message_item" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#42A5F5"
+        android:id="@+id/dark_divider"/>
+
+
+</RelativeLayout>
